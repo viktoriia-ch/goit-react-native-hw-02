@@ -33,9 +33,7 @@ const RegistrationScreen = () => {
           <Text style={styles.plus}>+</Text>
         </View>
       </View>
-
       <Text style={styles.title}>Registration</Text>
-
       <TextInput
         style={styles.input}
         placeholder={"Login"}
@@ -64,7 +62,6 @@ const RegistrationScreen = () => {
           setState((prevState) => ({ ...prevState, password: value }))
         }
       />
-
       <TouchableOpacity
         style={styles.btn}
         activeOpacity={0.5}
